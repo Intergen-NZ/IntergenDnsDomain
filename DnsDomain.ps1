@@ -28,4 +28,3 @@ else{
     Write-Host "Refer to the link for error code: "$result.ReturnValue
     Write-Host $link
 }
-Read-Host
