@@ -14,9 +14,12 @@ Usage
 Scheduled:
 
 Copy both powershell scripts included to the root of your C:\ drive.
-Run the following from CMD or set to be run when windows starts. This will run powershell hidden in the background and execute the DNS change script every 60 seconds.
 
-"start /min powershell -WindowStyle Hidden -Command C:\DnsDomainWorkerInvoker.ps1"
+Copy the .bat file to "C:\Users\<user_name>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\"
+
+This will run powershell hidden in the background and execute the DNS change script every 60 seconds when windows starts
+
+If you want to execute it mannually. "start /min powershell -WindowStyle Hidden -Command C:\DnsDomainWorkerInvoker.ps1"
 
 (Optional run this to keep the powershell window open to see when last it was run successfully)
 
